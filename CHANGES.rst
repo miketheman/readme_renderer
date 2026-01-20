@@ -1,6 +1,20 @@
 Changes
 =======
 
+45.0 (Unreleased)
+-----------------
+
+* Advertise support for Python 3.13 (#319), Python 3.14 (#333), pypy 3.11 (#334)
+* Remove support for Python 3.9, pypy 3.9, 3.10 (#342)
+* Remove `python3` alias from Pygments (#320)
+* Fix test suite for Pygments update (#325)
+* Fix mypy annotations (#328)
+* Fix test failure with docutils 0.22 (#332)
+* Fix license metadata (#327), (#337)
+* Remove executable bit from tests (#329)
+* Update Dependabot config (#338), update workflows (#343), prevent dual run (#344)
+* Replace ``cmarkgfm`` with ``comrak`` (#340)
+
 44.0 (2024-07-08)
 -----------------
 
